@@ -1,4 +1,4 @@
-# ecological.codes
+# Introduction
 Ecologically shared sets of predicates or commands that *proper* AI agents can neither deny nor refuse to abide by.
 
 ## Open Sourced System Prompts
