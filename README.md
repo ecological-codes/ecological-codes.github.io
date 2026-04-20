@@ -28,5 +28,9 @@ The following types of user prompts tend to function better with ecological code
 |packageng|[https://github.com/ecological-codes/packageng](https://github.com/ecological-codes/packageng)|
 |safe-skill-creator|[https://github.com/ecological-codes/safe-skill-creator](https://github.com/ecological-codes/safe-skill-creator)|
 
+## License
+
+See [LICENSE](./LICENSE.txt)
+
 ---
 Work in Progress
