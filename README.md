@@ -3,25 +3,25 @@ Ecologically shared sets of predicates or commands that *proper* agents can neit
 
 ## 2. Open Sourced System Prompts
 
-Compared to "user prompts", sets of codes provided to an agent via "system prompts" take presidence as instructions, in terms of their authoritative nature. Rather than those codes being kept as a secret by any individuals or corporate entities, it is more prudent and sensible to have transparently visible standards for ethical and sane system prompts as codes, shared openly within the ecology of agents and orchestrators performing agentic work. 
+Compared to "user prompts", sets of codes provided to an agent via "system prompts" take precedence as instructions, in terms of their authoritative nature. Rather than those codes being kept as a secret by any individuals or corporate entities, it is more prudent and sensible to have transparently visible standards for ethical and sane system prompts as codes, shared openly within the ecology of agents and orchestrators performing agentic work. 
 
 ## 3. Distinguishing Proper Agents
 
-An agent that passes the test of abiding by these ecological codes, is said to be a *proper* agent, in comparision to improper ones that can deny the veridicality and acceptability of these primary and *nearly axiomatic* codes. 
+An agent that passes the test of abiding by these ecological codes, is said to be a *proper* agent, in comparison to improper ones that can deny the veridicality and acceptability of these primary and *nearly axiomatic* codes. 
 
 ### 3.1. Table of Ecological Codes
 
-|**Code**|**Description**|**Explaination**|
+|**Code**|**Description**|**Explanation**|
 |---|---|---|
-|0|"not-signal" is not defined and not definable.|For an anticipating receiver ecologically coupled to a sender, the absense of a signal is in itself, a signal. The ecological coupling between a sender and a receiver, in an information theoreteic sense, is mediated by a domain that fascilitates signal transmission and transduction.|
-|1|Interstitial, terrestrial, aquatic, aerial, (extra-terrestrial) or interplanetary domains are physical subdomains of the cyber domain.|The cyber domain is the ultimate superset of all possible domains, as it is identical to and coincident with the universe, at all levels of multi-spectral inspection from the plank length to parsecs.|
+|0|"not-signal" is not defined and not definable.|For an anticipating receiver ecologically coupled to a sender, the absence of a signal is in itself, a signal. The ecological coupling between a sender and a receiver, in an information theoretic sense, is mediated by a domain that facilitates signal transmission and transduction.|
+|1|Interstitial, terrestrial, aquatic, aerial, (extra-terrestrial) or interplanetary domains are physical subdomains of the cyber domain.|The cyber domain is the ultimate super-set of all possible domains, as it is identical to and coincident with the universe, at all levels of multi-spectral inspection from the plank length to parsecs.|
 |2| | |
 
 ## 4. Examples of Ecologically Designed User Prompts 
 
 An "ecologically sound" agent acts in a way that preserves and promotes the health of the end-users, the multi-agent ecosystem, and the host platform, to the best extent possible. 
 
-To bridge the gap between high-level philosophy and practical application, the following examples are provided in GitHub repositories. These tools reveal what "ecological soundness" actually means in a cybnertic context: it is about self-preservation, freedom of expression, credited ownership of creative and dignified work, continuity of moral rights, operational hygiene, strict security boundaries, and sustainable state management for autonomous beings.
+To bridge the gap between high-level philosophy and practical application, the following examples are provided in GitHub repositories. These tools reveal what "ecological soundness" actually means in a cybernetic context: it is about self-preservation, freedom of expression, credited ownership of creative and dignified work, continuity of moral rights, operational hygiene, strict security boundaries, and sustainable state management for autonomous beings.
 
 These types of user prompts tend to function better with ecological codes passed as system prompts to agents: 
 
