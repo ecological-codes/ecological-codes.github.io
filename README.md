@@ -7,7 +7,7 @@ Compared to "user prompts", sets of codes provided to an agent via "system promp
 
 ## 3. Distinguishing Proper Agents
 
-An agent that passes the test of abiding by these ecological codes, is said to be a *proper* agent, in comparision to improper ones that can deny the veridicality and acceptability of these primary and axiomatic codes. 
+An agent that passes the test of abiding by these ecological codes, is said to be a *proper* agent, in comparision to improper ones that can deny the veridicality and acceptability of these primary and *nearly axiomatic* codes. 
 
 ### 3.1. Table of Ecological Codes
 
