@@ -22,8 +22,8 @@ The following types of user prompts tend to function better with ecological code
 
 |**Repo Name**|**URL**|
 |---|---|
-|user-prefs|https://github.com/ecological-codes/user-prefs|
-|prompteng|https://github.com/ecological-codes/prompteng|
+|user-prefs|[https://github.com/ecological-codes/user-prefs](https://github.com/ecological-codes/user-prefs)|
+|prompteng|[https://github.com/ecological-codes/prompteng](https://github.com/ecological-codes/prompteng)|
 |captureng||
 |packageng||
 |safe-skill-creator||
