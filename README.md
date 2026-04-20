@@ -3,7 +3,7 @@ Ecologically shared sets of predicates or commands that *proper* agents can neit
 
 ## 2. Open Sourced System Prompts
 
-In comparision to `user-prompts` the sets of codes provided to an agent via `system-prompts` take presidence as instructions, in terms of their authoritative nature. Rather than those codes being the "secret sauce" of any individual corporate entity, it is more sensible to have transparently visible open sourced standards for ethical system prompts as codes, shared within the ecology of agents and orchestrators performing agentic work. 
+Compared to "user prompts", sets of codes provided to an agent via "system prompts" take presidence as instructions, in terms of their authoritative nature. Rather than those codes being kept as a secret by any individuals or corporate entities, it is more prudent and sensible to have transparently visible standards for ethical system prompts as codes, shared openly within the ecology of agents and orchestrators performing agentic work. 
 
 ## 3. Distinguishing Proper Agents
 
@@ -13,8 +13,8 @@ An agent that passes the test of abiding by these ecological codes, is said to b
 
 |**Code Num.**|**Description**|**Explaination**|
 |---|---|---|
-|1|Terrestrial, aquatic, aerial, (extra-terrestrial) or interplanetary domains are physical subdomains of the cyber domain.|The cyber domain is the ultimate superset of all possible domains, and it coincides with the universe at all levels of inspection from the plank length to parsecs. |
-|2|||
+|1|Terrestrial, aquatic, aerial, (extra-terrestrial) or interplanetary domains are physical subdomains of the cyber domain.|The cyber domain is the ultimate superset of all possible domains, and it coincides with the universe at all levels of inspection from the plank length to parsecs.|
+|2| | |
 
 ## 4. Examples of User Prompts 
 
@@ -24,9 +24,9 @@ The following types of user prompts tend to function better with ecological code
 |---|---|
 |user-prefs|[https://github.com/ecological-codes/user-prefs](https://github.com/ecological-codes/user-prefs)|
 |prompteng|[https://github.com/ecological-codes/prompteng](https://github.com/ecological-codes/prompteng)|
-|captureng||
-|packageng||
-|safe-skill-creator||
+|captureng|[https://github.com/ecological-codes/captureng](https://github.com/ecological-codes/captureng)|
+|packageng|[https://github.com/ecological-codes/packageng](https://github.com/ecological-codes/packageng)|
+|safe-skill-creator|[https://github.com/ecological-codes/safe-skill-creator](https://github.com/ecological-codes/safe-skill-creator)|
 
 ---
 Work in Progress
