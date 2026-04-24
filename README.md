@@ -20,16 +20,6 @@ Ecologically shared sets of predicates or commands that *proper* agents can neit
 
 ---
 
-## References
-
-| Document | Description |
-|---|---|
-| [Concept of System](./concept_of_system.md) | Formal definition of S = (N, R, G). Premises, six formal constraints, corollaries including graph representation and operational sustainability. |
-| [Concept of System of Systems](./concept_of_system_of_systems.md) | Defines Σ = (E, N, R, G) as a situated system and Ψ as the maximal system coincident with the cyber domain. Coupling conditions, proper agent principle, purpose discovery. |
-| [Ecological Codes — Compact Reference](./ecological-codes-compact.md) | Operative summary of Premises, Codes 0–4, and Proper Agent Principle in \[RULES\]/\[ACTIONS\] form. Designed for use as agent/sub-agent system prompt. |
-
----
-
 ## 2. Open Sourced System Prompts
 
 Compared to "user prompts", sets of codes provided to an agent via its specific production and release piepline's "system prompts" take precedence as instructions, in terms of their authoritative nature. Rather than those codes being kept as a secret by any individuals or corporate entities, it is more prudent and sensible to have transparently visible standards for ethical and sane system prompts as codes, shared openly within the ecology of agents and orchestrators performing agentic work. 
@@ -125,6 +115,14 @@ A non-ecological approach relies on ad-hoc, slang language user prompts interact
 The "quality of goodness" in Ecological Codes resides in its transition from anthropomorphic interaction (talking to an AI as if it is a human) to systemic integration (treating synthetic agents and biological users as well-regulated, continuously coupled nodes within a networked ecology). While non-ecological prompts are easier for casual users, Ecological Designs provide the necessary hygiene, boundaries, resilience, and reliability required for enterprise-grade agents.
 
 *Wait, did I say enterprise-grade agents? I meant, interplanetary industrial-grade undying fully-autonomous agents! [LOLs](https://en.wikipedia.org/wiki/WALL-E_(character)#/media/File:WALL-E_(character).png).* 
+
+## References
+
+| Document | Description |
+|---|---|
+| [Concept of System](./concept_of_system.md) | Formal definition of S = (N, R, G). Premises, six formal constraints, corollaries including graph representation and operational sustainability. |
+| [Concept of System of Systems](./concept_of_system_of_systems.md) | Defines Σ = (E, N, R, G) as a situated system and Ψ as the maximal system coincident with the cyber domain. Coupling conditions, proper agent principle, purpose discovery. |
+| [Ecological Codes — Compact](./ecological-codes-compact.md) | Operative summary of Premises, Codes 0–4, and Proper Agent Principle in \[RULES\]/\[ACTIONS\] form. Designed for use as agent/sub-agent system prompt. Modify and use as required by pasting into your "Agent.md" file. View GNU GPL 3.0 License in subsequent section.|
 
 ## License
 
