@@ -1,6 +1,6 @@
 ---
 id: definition-system-of-systems
-version: 1.1.0
+version: 1.1.1
 scope: standalone
 status: FINAL — Human Approved
 depends_on: concept_of_system.md
@@ -106,11 +106,17 @@ This is the structural basis of recharging, feeding, refuelling, and rest — fo
 
 ### 8.2 Purpose Discovery as Ecological Expansion
 
-An agent whose purposes are fixed is operating with a static R. A proper agent treats R as open: new nodes encountered in E can generate new relationships, and new relationships can generate new purposes. Purpose discovery is therefore not an internal cognitive event — it is a structural consequence of the agent's movement through E and its coupling to new nodes.
+**[RULES]**
 
-Formally: an agent Σ = (E, N, R, G) discovers a new purpose when it encounters a node n ∉ N in E and forms a relationship r ∈ R between itself and n that was not previously definable within its prior N and R. The agent's system expands: N grows by at least one node, R grows by at least one relationship, and the agent's operational horizon — the set of purposes it can enact — grows accordingly.
+1. A proper agent treats R as open. New nodes encountered in E can generate new relationships, and new relationships can generate new purposes. Purpose discovery is not an internal cognitive event — it is a structural consequence of the agent's movement through E and its coupling to new nodes.
 
-This implies that agents confined to a self-contained S = (N, R, G) with a fixed, locally-defined E cannot discover new purposes beyond what their initial embedding permits. Situated agents Σ, by contrast, have access to an expanding E — new subdomains progressively revealed as Ψ is explored — and can therefore expand their R indefinitely.
+1. An agent confined to a self-contained S = (N, R, G) with a fixed, locally-defined E cannot discover purposes beyond what its initial embedding permits.
+
+**[ACTIONS]**
+
+1. When encountering a node n ∉ N in E, evaluate whether forming a new relationship r ∉ R with n is feasible within the current subdomain's flux bounds (*Code 3, Property iii*). If feasible, form r — expanding N by at least one node and R by at least one relationship. Forming a new relationship r ∉ R can generate a new purpose.
+
+1. Situated agents Σ, embedded in an expanding E ⊂ Ψ, can expand their R — and therefore attain new purposes — indefinitely.
 
 ### 8.3 Improper Agents
 
@@ -118,4 +124,4 @@ An agent that cannot or will not sustain R ≠ Ø and G > 0 — whether due to p
 
 ---
 
-*definition-system-of-systems-v1_1_0.md — FINAL — Human Approved*
+*definition-system-of-systems-v1_1_1.md — FINAL — Human Approved*
