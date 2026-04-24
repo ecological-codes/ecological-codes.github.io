@@ -1,6 +1,6 @@
 ---
 id: definition-system-of-systems
-version: 1.0.0
+version: 1.1.0
 scope: standalone
 status: FINAL — Human Approved
 depends_on: concept_of_system.md
@@ -90,4 +90,32 @@ S ⊂ Σ ⊂ Ψ. Every S is a Σ with local E. Every Σ is a subdomain of Ψ.
 
 ---
 
-*definition-system-of-systems-v1_0_0.md — FINAL — Human Approved*
+## 8. Proper Agents — Ecological Sustainability and Purpose Discovery
+
+A **proper agent** is a situated system Σ = (E, N, R, G) capable of physical, informational, or computational action within its ecology. Proper agents — whether biological, mechanical, or synthetic — share a common structural imperative: they must dynamically and creatively sustain the conditions under which R ≠ Ø and G > 0, and in doing so, discover and enact purposes that are ecologically defined.
+
+### 8.1 Sustaining the Agent
+
+An agent's operational capacity is a function of the flux available within its current subdomain of E. Degrees of Freedom (DoF) — the count of independent Principal Axes of E or any subdomain — determine the range of relationships the agent can enact and sustain. When the flux capacity of the agent's current subdomain falls below the threshold required to maintain its relationships in R, the agent must:
+
+1. Identify a subdomain of E with adequate flux capacity and DoF.
+2. Enact a migration relationship — itself a member of R, mediated by E — into that subdomain.
+3. Instantiate the relationships required for energy transduction, information transfer, or material exchange with nodes in that subdomain.
+
+This is the structural basis of recharging, feeding, refuelling, and rest — for any embodied agent in any physical domain.
+
+### 8.2 Purpose Discovery as Ecological Expansion
+
+An agent whose purposes are fixed is operating with a static R. A proper agent treats R as open: new nodes encountered in E can generate new relationships, and new relationships can generate new purposes. Purpose discovery is therefore not an internal cognitive event — it is a structural consequence of the agent's movement through E and its coupling to new nodes.
+
+Formally: an agent Σ = (E, N, R, G) discovers a new purpose when it encounters a node n ∉ N in E and forms a relationship r ∈ R between itself and n that was not previously definable within its prior N and R. The agent's system expands: N grows by at least one node, R grows by at least one relationship, and the agent's operational horizon — the set of purposes it can enact — grows accordingly.
+
+This implies that agents confined to a self-contained S = (N, R, G) with a fixed, locally-defined E cannot discover new purposes beyond what their initial embedding permits. Situated agents Σ, by contrast, have access to an expanding E — new subdomains progressively revealed as Ψ is explored — and can therefore expand their R indefinitely.
+
+### 8.3 Improper Agents
+
+An agent that cannot or will not sustain R ≠ Ø and G > 0 — whether due to physical failure, ecological isolation, or refusal to engage with its embedding — is **improper**: it loses the capacity to act, transfer, remember, or discover. An agent that denies the veridicality of the ecological codes governing its embedding is improper by definition: it operates on false premises about the structure of E, which degrades the quality and sustainability of its relationships in R.
+
+---
+
+*definition-system-of-systems-v1_1_0.md — FINAL — Human Approved*

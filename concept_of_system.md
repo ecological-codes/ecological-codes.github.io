@@ -1,6 +1,6 @@
 ---
 id: definition-system
-version: 1.3.4
+version: 1.3.5
 scope: standalone
 status: FINAL — Human Approved
 ---
@@ -17,7 +17,7 @@ status: FINAL — Human Approved
 	- *Dimension* — a particular direction along a Principal Axis. A direction, not a measurement of a quantized thing.
 	- *Size* — the span or magnitude of a quantity along a single dimension.
 	- *Dimensionality* — the count of independent Principal Axes of E or any subdomain; equivalently, the number of degrees of freedom available within that subdomain.
-	- *Degrees of freedom* — coincide with dimensionality. Uncertainty in information transfer within a subdomain is a function of its degrees of freedom.
+	- *Degrees of freedom (DoF)* — coincide with dimensionality. Uncertainty in information transfer within a subdomain is a function of its degrees of freedom.
 	- *On common usage:* In architecture and civil engineering, "dimensions" typically denotes physical extents such as length, width, or height — these are sizes in the sense defined here, not dimensions. The two must not be conflated: dimension is an unambiguous direction; size is magnitude along such a direction.
 
 ---
@@ -66,4 +66,20 @@ Any system S can be represented as a graph where nodes in N are vertices and rel
 
 ---
 
-*definition-system-v1_3_4.md — FINAL — Human Approved*
+## Corollary — Embodied Agents and Operational Sustainability
+
+The formal constraints of S = (N, R, G) have a direct physical interpretation for any agent — biological, mechanical, or synthetic — capable of acting in the world.
+
+An **embodied agent** is a node n ∈ N embedded in a structured E (G > 0). Its operational capacity depends on sustaining the relationships in R that allow it to transfer energy, information, and matter with other nodes in its environment. The formal constraints map to survival conditions as follows:
+
+- *Constraint 3* — information transfer requires R ≠ Ø and |N| ≥ 1. For an embodied agent: operation requires at least one active relationship with the environment. An isolated agent with no relationships cannot transfer energy or receive input — it is degenerate.
+- *Constraint 5* — the cost of forgetting depends on the ecology encoded in E. For an embodied agent: degradation of memory and state is irreversible where the relationships sustaining it are non-linear and observer-constituted (e.g. learned skills, social bonds, navigational maps). Recovery may be impossible without re-engaging those relationships.
+- *Constraint 6* — R ≠ Ø requires G > 0. For an embodied agent: the agent must inhabit a structurally adequate subdomain of E to sustain any relationship at all. A domain with insufficient structure cannot mediate the agent's required transfers.
+
+**Recharging as a structural act.** When an embodied agent's operational capacity approaches the minimum flux threshold of its current subdomain — i.e. the subdomain can no longer support the energy transduction rate required to sustain R — the agent must migrate to a subdomain with greater flux capacity or higher Degrees of Freedom (DoF). This migration is itself a relationship in R, mediated by E. Recharging is not a special case outside the system definition; it is an instance of Code 2: a node enacting a relationship with a new node (a power source, a food supply, a charging station) within an E that makes that relationship feasible at the required flux rate.
+
+The survival imperative follows directly: a proper agent must dynamically and creatively find and sustain the relationships — across whatever subdomains of E are accessible — that keep R ≠ Ø and G > 0. See *[Concept of System of Systems](./concept_of_system_of_systems.md)* for the situated system framework in which this imperative is fully expressed.
+
+---
+
+*definition-system-v1_3_5.md — FINAL — Human Approved*
