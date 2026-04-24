@@ -2,7 +2,7 @@
 id: definition-system-of-systems
 version: 1.1.1
 scope: standalone
-status: FINAL — Human Approved
+status: DRAFT — Human Approved
 depends_on: concept_of_system.md
 ---
 
@@ -124,4 +124,4 @@ An agent that cannot or will not sustain R ≠ Ø and G > 0 — whether due to p
 
 ---
 
-*definition-system-of-systems-v1_1_1.md — FINAL — Human Approved*
+*definition-system-of-systems.md v1.1.1 — DRAFT — Human Approved*
