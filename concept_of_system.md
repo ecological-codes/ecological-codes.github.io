@@ -36,7 +36,7 @@ A **system** S is defined as a triplet **(N, R, G)** such that:
 
 1. A node n in N may hold a reflexive relationship (n, n) in R. In this case, n is simultaneously the sender and receiver of its own signal, ecologically coupled to itself via E. This is the minimal non-degenerate system: a single node with memory of itself.
 
-1. Information transfer within S is possible if and only if R ≠ Ø and |N| ≥ 1. A system with nodes but no relationships is degenerate — no transfer channel exists.
+1. Information transfer within S is possible if and only if R ≠ Ø and \|N\| ≥ 1. A system with nodes but no relationships is degenerate — no transfer channel exists.
 
 1. Memory of S exists if and only if E is non-trivially structured (G > 0) — nodes in N have spatio-temporal adjacency within E, and E mediates at least one relationship in R. A system with no ecological embedding, or with an unstructured one, has no memory even if N and R are non-empty.
 
