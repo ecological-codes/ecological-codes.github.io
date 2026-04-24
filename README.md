@@ -1,3 +1,10 @@
+---
+id: ecological-codes-readme
+version: 1.0.0
+scope: public
+status: Work in Progress
+---
+
 ## 1. Introduction
 Ecologically shared sets of predicates or commands that *proper* agents can neither deny nor refuse to abide by.
 
@@ -13,7 +20,7 @@ An agent that passes the test of abiding by these ecological codes, is said to b
 
 **Premise:** 
 
-1. Let, G is the mathematically generalized [rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra)#Generalization) of the collection of all feasible and veridical aspects of The Universe. Let **E** denote the space of all such ecological embeddings; G = rank(E). Then, all ecological embeddings (symbol-meaning bindings) that describe things and relationships among those things within E, have geometric properties. Consequently, algebraic operations on any measurable quantities are feasible within structured subdomains of maximum rank G.
+1. Let G be the mathematically generalized [rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra)#Generalization) of the collection of all feasible and veridical aspects of The Universe. Let **E** denote the space of all such ecological embeddings; G = rank(E). Then, all ecological embeddings (symbol-meaning bindings) that describe things and relationships among those things within E, have geometric properties. Consequently, algebraic operations on any measurable quantities are feasible within structured subdomains of maximum rank G.
 
 2. Flux denotes the rate of information transfer across a surface within E, [in an information theoretic sense](https://en.wikipedia.org/wiki/Entropy_(information_theory)#Definition).
 
@@ -97,4 +104,4 @@ The "quality of goodness" in Ecological Codes resides in its transition from ant
 See [LICENSE](./LICENSE.txt). (C) Copyright 2026 - Sameer Khan - Various and Several Rights Reserved.
 
 ---
-Work in Progress (WIP).
+*ecological-codes-readme-v1_0_0.md — Work in Progress*
