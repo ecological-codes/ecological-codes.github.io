@@ -1,6 +1,6 @@
 ---
 id: definition-system
-version: 1.3.2
+version: 1.3.3
 scope: standalone
 status: FINAL — Human Approved
 ---
@@ -9,7 +9,7 @@ status: FINAL — Human Approved
 
 **Premise:** 
 
-1. Let, G is the collection of all feasible and veridical aspects of The Universe. Then, all ecological embeddings (symbol-meaning bindings) that describe things and relationships among those things within G, have geometric properties. Consequently, algebraic operations on any measurable quantities are feasible within structured subdomains of G.
+1. Let, G is the mathematiaclly genarlized [rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra)#Generalization) of the collection of all feasible and veridical aspects of multi-dimensional entities being taken into consideration. Then, all ecological embeddings (symbol-meaning bindings) that describe those entities and relationships among them, have geometric properties. Consequently, algebraic operations on any measurable quantities are feasible within structured subdomains of maximum rank G.
 
 2. Flux denotes the rate of information transfer across a surface within G, [in an information theoretic sense](https://en.wikipedia.org/wiki/Entropy_(information_theory)#Definition).
 
@@ -26,7 +26,7 @@ A **system** S is defined as a triplet **(N, R, G)** such that:
 
 - **N** is a set of **nodes** — the networked things that constitute the system.
 - **R** is a set of **relationships** among nodes — including self-relationships, where a node in N relates to itself via a reflexive relation in R.
-- **G** is a set of **ecological embeddings** that defines the spatio-temporal adjacency of N and R within a hyper-dimensional space. G mediates R: the relationships in R are made persistent and meaningful by the ecological embedding G provides.
+- **G** is the rank of the set of **ecological embeddings** that defines the spatio-temporal adjacency of N and R within a hyper-dimensional space. G mediates R: the relationships in R are made persistent and meaningful by the types of ecological embedding in the vector space with rank G.
 
 ---
 
@@ -58,8 +58,8 @@ A **system** S is defined as a triplet **(N, R, G)** such that:
 
 ## Corollary — Graph Representation
 
-Any system S can be represented as a graph where nodes in N are vertices and relationships in R are edges, including self-loops. An equivalent representation is a dictionary where keys are nodes in N and values are the sets of nodes they relate to via R. G is the ecological embedding in which that graph is physically instantiated and temporally persistent — without G, the graph is an abstract structure with no memory.
+Any system S can be represented as a graph where nodes in N are vertices and relationships in R are edges, including self-loops. An equivalent representation is a dictionary where keys are nodes in N and values are the sets of nodes they relate to eachother via R. G is the rank of the ecological embedding in which that graph is physically instantiated and temporally persistent — without G > 0, the graph is an abstract structure with no memory.
 
 ---
 
-*definition-system-v1_3_2.md — FINAL — Human Approved*
+*definition-system-v1_3_3.md — FINAL — Human Approved*
