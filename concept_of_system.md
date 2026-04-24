@@ -82,4 +82,4 @@ The survival imperative follows directly: a proper agent must dynamically and cr
 
 ---
 
-*definition-system-v1_3_5.md — FINAL — Human Approved*
+*definition-system.md v1.3.5 — FINAL — Human Approved*
