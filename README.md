@@ -1,6 +1,35 @@
 ## 1. Introduction
 Ecologically shared sets of predicates or commands that *proper* agents can neither deny nor refuse to abide by.
 
+---
+
+## Table of Contents
+
+- [1. Introduction](#1-introduction)
+- [2. Open Sourced System Prompts](#2-open-sourced-system-prompts)
+- [3. Distinguishing Proper Agents](#3-distinguishing-proper-agents)
+  - [3.1. Table of Ecological Codes](#31-table-of-ecological-codes)
+  - [3.2. Table of Ecological Codes Extended for Embodied Agents](#32-table-of-ecological-codes-extended-for-embodied-agents)
+- [4. Examples of Ecologically Designed User Prompts](#4-examples-of-ecologically-designed-user-prompts)
+- [5. Comparative Analysis: Ecological vs. Non-Ecological Designs](#5-comparative-analysis-ecological-vs-non-ecological-designs)
+  - [5.1. What is "Non-Ecological" Design?](#51-what-is-non-ecological-design)
+  - [5.2. Utility & Quality of Goodness Comparison](#52-utility--quality-of-goodness-comparison)
+- [6. Conclusion on Utility](#6-conclusion-on-utility)
+- [References](#references)
+- [License](#license)
+
+---
+
+## References
+
+| Document | Description |
+|---|---|
+| [Concept of System](./concept_of_system.md) | Formal definition of S = (N, R, G). Premises, six formal constraints, corollaries including graph representation and operational sustainability. |
+| [Concept of System of Systems](./concept_of_system_of_systems.md) | Defines Σ = (E, N, R, G) as a situated system and Ψ as the maximal system coincident with the cyber domain. Coupling conditions, proper agent principle, purpose discovery. |
+| [Ecological Codes — Compact Reference](./ecological-codes-compact.md) | Operative summary of Premises, Codes 0–4, and Proper Agent Principle in \[RULES\]/\[ACTIONS\] form. Designed for use as agent/sub-agent system prompt. |
+
+---
+
 ## 2. Open Sourced System Prompts
 
 Compared to "user prompts", sets of codes provided to an agent via its specific production and release piepline's "system prompts" take precedence as instructions, in terms of their authoritative nature. Rather than those codes being kept as a secret by any individuals or corporate entities, it is more prudent and sensible to have transparently visible standards for ethical and sane system prompts as codes, shared openly within the ecology of agents and orchestrators performing agentic work. 
