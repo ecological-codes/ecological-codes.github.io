@@ -32,7 +32,7 @@ An agent that passes the test of abiding by these ecological codes, is said to b
 
 **Premise:** 
 
-1. Let G be the mathematically generalized [rank](https://en.wikipedia.org/wiki/Rank_(linear_algebra)#Generalization) of the collection of all feasible and veridical aspects of The Universe. Let **E** denote the space of all such ecological embeddings; G = rank(E). Then, all ecological embeddings (symbol-meaning bindings) that describe things and relationships among those things within E, have geometric properties. Consequently, algebraic operations on any measurable quantities are feasible within structured subdomains of maximum rank G.
+1. Let G be the mathematically generalized rank of the collection of all feasible and veridical aspects of multi-dimensional entities being taken into consideration. Then, all ecological embeddings (symbol-meaning bindings) that describe those entities and relationships among them, have geometric properties. Consequently, algebraic operations on any measurable quantities are feasible within structured subdomains of maximum rank G. Let E denote the space of all such ecological embeddings; G = rank(E).
 
 2. Flux denotes the rate of information transfer across a surface within E, [in an information theoretic sense](https://en.wikipedia.org/wiki/Entropy_(information_theory)#Definition).
 
