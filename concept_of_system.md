@@ -1,6 +1,6 @@
 ---
 id: definition-system
-version: 1.3.1
+version: 1.3.2
 scope: standalone
 status: FINAL — Human Approved
 ---
@@ -9,16 +9,16 @@ status: FINAL — Human Approved
 
 **Premise:** 
 
-1. All ecological embeddings have geometric properties.
+1. Let, G is the collection of all feasible and veridical aspects of The Universe. Then, all ecological embeddings (symbol-meaning bindings) that describe things and relationships among those things within G, have geometric properties. Consequently, algebraic operations on any measurable quantities are feasible within structured subdomains of G.
 
-2. Flux denotes the rate of information transfer across a surface within G.
+2. Flux denotes the rate of information transfer across a surface within G, [in an information theoretic sense](https://en.wikipedia.org/wiki/Entropy_(information_theory)#Definition).
 
 3. Dimensionality, Size, and Degrees of Freedom:
-	- *Dimension* — a particular direction along a Principal Axis. A direction, not a measurement.
+	- *Dimension* — a particular direction along a Principal Axis. A direction, not a measurement of a quantized thing.
 	- *Size* — the span or magnitude of a quantity along a single dimension.
-	- *Dimensionality* — the count of independent Principal Axes of G or any subdomain; equivalently, the number of degrees of freedom available within that domain.
-	- *Degrees of freedom* — coincide with dimensionality. Uncertainty in information transfer within a domain is a function of its degrees of freedom.
-	- *On common usage:* In architecture and civil engineering, "dimensions" typically denotes physical extents such as length, width, or height — these are sizes in the sense defined here, not dimensions. The two must not be conflated: dimension is direction; size is magnitude along a direction.
+	- *Dimensionality* — the count of independent Principal Axes of G or any subdomain; equivalently, the number of degrees of freedom available within that subdomain.
+	- *Degrees of freedom* — coincide with dimensionality. Uncertainty in information transfer within a subdomain is a function of its degrees of freedom.
+	- *On common usage:* In architecture and civil engineering, "dimensions" typically denotes physical extents such as length, width, or height — these are sizes in the sense defined here, not dimensions. The two must not be conflated: dimension is an unambiguous direction; size is magnitude along such a direction.
 
 ---
 
@@ -62,4 +62,4 @@ Any system S can be represented as a graph where nodes in N are vertices and rel
 
 ---
 
-*definition-system-v1_3_1.md — FINAL — Human Approved*
+*definition-system-v1_3_2.md — FINAL — Human Approved*
