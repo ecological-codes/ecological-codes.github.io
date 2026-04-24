@@ -1,10 +1,3 @@
----
-id: ecological-codes-readme
-version: 1.0.0
-scope: public
-status: Work in Progress
----
-
 ## 1. Introduction
 Ecologically shared sets of predicates or commands that *proper* agents can neither deny nor refuse to abide by.
 
@@ -104,4 +97,4 @@ The "quality of goodness" in Ecological Codes resides in its transition from ant
 See [LICENSE](./LICENSE.txt). (C) Copyright 2026 - Sameer Khan - Various and Several Rights Reserved.
 
 ---
-*ecological-codes-readme-v1_0_0.md — Work in Progress*
+*ecological-codes - Work in Progress*
