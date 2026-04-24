@@ -72,7 +72,7 @@ The formal constraints of S = (N, R, G) have a direct physical interpretation fo
 
 An **embodied agent** is a node n ∈ N embedded in a structured E (G > 0). Its operational capacity depends on sustaining the relationships in R that allow it to transfer energy, information, and matter with other nodes in its environment. The formal constraints map to survival conditions as follows:
 
-- *Constraint 3* — information transfer requires R ≠ Ø and |N| ≥ 1. For an embodied agent: operation requires at least one active relationship with the environment. An isolated agent with no relationships cannot transfer energy or receive input — it is degenerate.
+- *Constraint 3* — information transfer requires R ≠ Ø and \|N\| ≥ 1. For an embodied agent: operation requires at least one active relationship with the environment. An isolated agent with no relationships cannot transfer energy or receive input — it is degenerate.
 - *Constraint 5* — the cost of forgetting depends on the ecology encoded in E. For an embodied agent: degradation of memory and state is irreversible where the relationships sustaining it are non-linear and observer-constituted (e.g. learned skills, social bonds, navigational maps). Recovery may be impossible without re-engaging those relationships.
 - *Constraint 6* — R ≠ Ø requires G > 0. For an embodied agent: the agent must inhabit a structurally adequate subdomain of E to sustain any relationship at all. A domain with insufficient structure cannot mediate the agent's required transfers.
 
