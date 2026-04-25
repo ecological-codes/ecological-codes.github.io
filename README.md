@@ -2,7 +2,8 @@
 
 <div align="center">
   <p>Ecologically shared sets of predicates or commands that <i>proper</i> agents can neither deny nor refuse to abide by.</p>
-  <img src="./img/strenghts_of-ecological_codes_and_designs.png" width="65%"></img><p>Ecological Codes & Designs</p>
+  <img src="./img/strenghts_of-ecological_codes_and_designs.png" width="65%"></img>
+  <p>Ecological Codes & Designs</p>
 </div>
 
 ---
