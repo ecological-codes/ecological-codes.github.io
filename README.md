@@ -2,7 +2,7 @@
 
 <div align="center">
   <p>Ecologically shared sets of predicates or commands that <i>proper</i> agents can neither deny nor refuse to abide by.</p>
-  <img src="./img/strenghts_of-ecological_codes_and_designs.png" width="65%"><p>Ecological Codes & Designs</p></img>
+  <img src="./img/strenghts_of-ecological_codes_and_designs.png" width="65%"></img><p>Ecological Codes & Designs</p>
 </div>
 
 ---
@@ -136,4 +136,4 @@ The "quality of goodness" in Ecological Codes resides in its transition from ant
 See [LICENSE](./LICENSE.txt). (C) Copyright 2026 - Sameer Khan - Various and Several Rights Reserved.
 
 ---
-*ecological-codes - v1.8.3 - Work in Progress*
+*ecological-codes - v1.8.4 - Work in Progress*
