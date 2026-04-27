@@ -56,7 +56,7 @@ A **system** S is defined as a triplet **(N, R, G)** such that:
 | Ø | Ø | — | Empty or void system | Valid. Informationally inert and idempotent. |
 | ≠ Ø | Ø | — | Degenerate system | Valid. No transfer possible. No memory. |
 | {n} | {(n,n)} | Structured | Minimal system | Valid. Single node, reflexive relation, self-memory via E. |
-| ≠ Ø | ≠ Ø | Unstructured | Transfer-capable, memoryless | Formally excluded — R ≠ Ø requires G > 0 (*Constraint 6*). |
+| ≠ Ø | ≠ Ø | Unstructured | Transfer-capable, memoryless | Formally excluded, R ≠ Ø requires G > 0 (*Constraint 6*). |
 | ≠ Ø | ≠ Ø | Structured | Fully realized system | Transfer and memory both available. |
 
 ---
