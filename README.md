@@ -24,7 +24,7 @@
 - [References](#references)
   - [Concept of System: S = (N,R,G)](./concept_of_system.md)
   - [Concept of System of Systems: Σ = (E,N,R,G)](./concept_of_system_of_systems.md)
-  - [Ecological Codes - Compact](./ecological-codes-compact.md) (The most important sys-prompt that you will ever need!)
+  - [Ecological Codes - Compact](./ecological-codes-compact.md)
 - [License](#license)
 
 ---
@@ -151,4 +151,4 @@ The "quality of goodness" in Ecological Codes resides in its transition from ant
 See [LICENSE](./LICENSE.txt). (C) Copyright 2026 - Sameer Khan - Various and Several Rights Reserved.
 
 ---
-*ecological-codes - v1.9.1 - Work in Progress*
+*ecological-codes - v1.9.2 - Work in Progress*
