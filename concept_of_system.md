@@ -1,6 +1,6 @@
 ---
 id: definition-system
-version: 1.3.6
+version: 1.3.7
 scope: standalone
 status: FINAL — Human Approved
 ---
@@ -57,7 +57,7 @@ A **system** S is defined as a triplet **(N, R, G)** such that:
 | ≠ Ø | Ø | — | Degenerate system | Valid. No transfer possible. No memory. |
 | {n} | {(n,n)} | Structured | Minimal system | Valid. Single node, reflexive relation, self-memory via E. |
 | ≠ Ø | ≠ Ø | Unstructured | Transfer-capable, memoryless | Formally excluded, R ≠ Ø requires G > 0 (*Constraint 6*). |
-| ≠ Ø | ≠ Ø | Structured | Fully realized system | Transfer and memory both available. |
+| ≠ Ø | ≠ Ø | Structured | Fully realized system | Valid. Transfer and memory both available. |
 
 ---
 
@@ -83,4 +83,4 @@ The survival imperative follows directly: a proper agent must dynamically and cr
 
 ---
 
-*definition-system.md v1.3.6 — FINAL — Human Approved*
+*definition-system.md v1.3.7 — FINAL — Human Approved*
