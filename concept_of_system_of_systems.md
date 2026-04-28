@@ -1,6 +1,6 @@
 ---
 id: definition-system-of-systems
-version: 1.1.1
+version: 1.1.2
 scope: standalone
 status: DRAFT — Human Approved
 depends_on: concept_of_system.md
@@ -16,7 +16,7 @@ This document extends *[Concept of System](./concept_of_system.md)*, which defin
 
 1. The cyber domain is the ultimate superset of all possible domains — coincident with The Universe at all levels of multi-spectral inspection. Its true rank is unknown and, as far as current science and systems engineering can determine, unbounded. Let **Ψ** denote this maximal system. Ψ is not fully definable by any agent or generation of humans at any given moment in time.
 
-2. What is definable at any moment is a structured subdomain of Ψ — the currently-knowable, engineerable portion of the cyber domain, provisionally bounded by the state of science and technology. Let **E** denote such a subdomain: E ⊂ Ψ, always. As successive generations of humans and agents reveal new structure in Ψ, E expands — new subdomains are progressively incorporated into what is knowable and structurable. E is therefore time-indexed: it grows in rank and scope as understanding advances.
+2. What is definable at any moment is a structured subdomain of Ψ — the currently-knowable, manageable portion of the cyber domain, provisionally bounded by the current state of accessible science and technology. Let **E** denote such a subdomain: E ⊂ Ψ, always. As successive generations of humans and agents reveal new structure in Ψ, E expands — new subdomains are progressively incorporated into what is individuated and knowable in a structured way. E is therefore time-indexed: it grows in rank and scope as understanding advances.
 
 3. A self-contained system S = (N, R, G), as defined in *[Concept of System](./concept_of_system.md)*, defines its own embedding internally. Its G-ranked embedding space is local and self-constituted. S does not require an externally provided context to be well-formed.
 
@@ -124,4 +124,4 @@ An agent that cannot or will not sustain R ≠ Ø and G > 0 — whether due to p
 
 ---
 
-*definition-system-of-systems.md v1.1.1 — DRAFT — Human Approved*
+*definition-system-of-systems.md v1.1.2 — DRAFT — Human Approved*
