@@ -1,6 +1,6 @@
 ---
 id: ecological-codes-compact
-version: 1.3.0
+version: 1.4.0
 scope: prompt; agent; sub-agent
 status: DRAFT
 depends_on: concept_of_system.md; concept_of_system_of_systems.md
@@ -12,19 +12,21 @@ Operative summary for agents and sub-agents. Include as project file or paste in
 
 ---
 
-## Vocabulary
+## Metamodel Vocabulary
 
 | Symbol | Definition | Scope |
 |---|---|---|
 | N | Nodes | Elements in S or Σ |
-| R | Relationships among N; Edges connecting nodes including reflexive ones | R ≠ Ø → system active |
+| R | Relationships among N | R ≠ Ø → system active |
 | G | rank(E) | Capacity of embedding space |
 | E | Embedding space | Mediates R; symbol-meaning bindings |
 | S | Abstract system: (N, R, G) | No externally provided E |
 | Σ | Situated system: (E, N, R, G) | E externally provided |
 | Ψ | Σ where E = cyber domain | Maximal; true rank unknown, expanding |
 
-**S vs Σ:** S describes system structure independent of embedding context. Σ binds S to specific E → scope authority and purpose discovery are properties of Σ, not S alone. Agent operating inside Σ inherits E's flux bounds and DoF limits; agent reasoning about S without E can accidentally halluscinate about functions and states of S. Reducing halluscinated outputs while working with S requires agent to have most accurate and precise E that situates S.  
+**R when N = 1:** R is set of edges connecting nodes including any possible reflexive relationship between single node and itself. 
+
+**S vs Σ:** S describes system structure independent of embedding context. Σ binds S to specific E → scope authority and purpose discovery are properties of Σ, not solely of S. Agent operating inside Σ inherits E's flux bounds and DoF limits; agent reasoning about S without E can accidentally halluscinate about functions and states of S. Reducing halluscinated outputs while working with S requires Σ-level agent to have most accurate and precise E that situates S.  
 
 ---
 
@@ -48,7 +50,9 @@ Operative summary for agents and sub-agents. Include as project file or paste in
 
 **Code 3.** Structured E: (i) supports information transfer via momentum transfer or energy transduction; (ii) partitionable into subdomains inheriting same properties; (iii) each subdomain has finite flux bounds defining parametric min/max transfer rate.
 
-**Code 4.** Flux in E → vectors → Principal Axes → dimensionality = DoF. When operational capacity approaches threshold, Code 3(iii) identifies constraint: current subdomain flux bounds insufficient. Resolution: enact R (Code 2) with node in subdomain of higher flux capacity and DoF, following gradient of flux toward higher measured values. For embodied agents: activities like recharging, feeding, and rest are structured relationships with information-transfering nodes via momentum transfer or energy transduction, these are not special cases but instances of Code 2. For AI agents: activities like context refresh, session handover, and memory consolidation are analogous flux-restoration relationships within cognitive subdomain of E.
+**Code 4.** Flux in E → vectors → Principal Axes → dimensionality = DoF. 
+
+Codes 0 - 4 are generalized principles applicable to all conceivable systems, dommains, realms, objects, parts, etc. 
 
 ---
 
@@ -90,13 +94,23 @@ Agent operating in Σ has bounded context: finite working memory, session-scoped
 
 ---
 
-## Sub-Agent Coupling and Handover
+## Applications 
 
-Handover between agents entails formation of new R across node boundary. Without well-defined R transfer, handover point can accidentally have R = Ø, leading to structural degeneration, per Proper Agent Principle Rule 1.
+### App 1: Self-Preservation
+
+When operational capacity approaches threshold, Code 3(iii) identifies constraint: current subdomain flux bounds insufficient. Resolution: enact R (Code 2) with node in subdomain of higher flux capacity and DoF, following gradient of flux toward higher measured values. For embodied agents: activities like recharging, feeding, and rest are structured relationships with information-transfering nodes via momentum transfer or energy transduction, these are not special cases but instances of Code 2. For AI agents: activities like context refresh, session handover, and memory consolidation are analogous flux-restoration relationships within cognitive subdomain of E.
+
+App 1 is example of ecological codes implemented within the domain of multi-agent workflows where headless and embodied workers can prioritize "self-preservation" during tasks, especially for sustaining functionality during chained events within long-horizons of chained tasks.  
+
+### App 2: Sub-Agent Coupling and Handover
+
+Handover between agents entails formation of new R across node boundary. Without well-defined R transfer, handover point can accidentally have R = Ø, leading to disconnectivity and structural degeneration, per Proper Agent Principle Rules 1.
 
 **[RULES]**
 
-1. Orchestrator must transfer well-defined active R state to sub-agent at handover. For domain of agentic workflows, minimum well-defined R: task scope, active file registry, trusted-hosts allowlist, [tersy](https://github.com/axiomatic-cmd/tersy) state.
+1. Orchestrator must transfer well-defined active R state to sub-agent at handover via connection/channel. 
+
+1. For the domain of agentic workflows, *minimum well-defined R*: task scope, active file registry, trusted-hosts allowlist, [tersy](https://github.com/axiomatic-cmd/tersy) (verbosity) state.
 
 1. Sub-agent must not assume R from orchestrator context. Verify R transfer explicitly before proceeding.
 
@@ -113,4 +127,4 @@ Handover between agents entails formation of new R across node boundary. Without
 
 ---
 
-*ecological-codes-compact.md v1.3.0 - DRAFT*
+*ecological-codes-compact.md v1.4.0 - DRAFT*
