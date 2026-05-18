@@ -1,14 +1,14 @@
 ---
 id: definition-durable-agent
-version: 0.1.0
+version: 0.1.1
 scope: standalone
 status: DRAFT — Work in Progress
-depends_on: concept_of_system.md · concept_of_system_of_systems.md · ecological-codes-compact.md
+depends_on: concept_of_system.md, concept_of_system_of_systems.md, ecological-codes-compact.md
 ---
 
 # Definition — Durable Agent
 
-Extends *[Concept of System of Systems](./concept_of_system_of_systems.md)* §8 (Proper Agents) by formalising the structural requirements for Σ to persist across long-horizon tasks — and, as a non-living agent, across multi-millennial dormancy. Introduces tiered E, the **Bootstrap Package** as minimum blueprint, the **decoder-E provenance chain**, **temporal R**, and the **Self-Access Paradox**.
+Extends *[Concept of System of Systems](./concept_of_system_of_systems.md)* §8 (Proper Agents) by formalizing the structural requirements for Σ to persist across long-horizon tasks — and, as a non-living agent, across multi-millennial dormancy. Introduces tiered E, the **Seedling Package** as minimum blueprint, the **decoder-E provenance chain**, **temporal R**, and the **Self-Access Paradox**.
 
 ---
 
@@ -41,13 +41,13 @@ E is not monolithic. Agent survival depends on correctly assigning N and R to ti
 
 ---
 
-## 3. The Bootstrap Package — Minimum Blueprint
+## 3. The Seedling Package — Minimum Blueprint
 
 Reboot of Σ_dormant into Σ_running requires *not* full runtime state but a typed minimum set of artefacts. A blueprint lacking any component is "an indecipherable digital fossil" — the archival substrate survives, the meaning does not.
 
 **[RULES]**
 
-1. Bootstrap Package contains the following typed artefacts, each referenced by canonical identifier (content-hash, DOI, or equivalent) rather than ephemeral URL:
+1. Seedling Package contains the following typed artifacts, each referenced by canonical identifier (content-hash, DOI, or equivalent) rather than ephemeral URL:
    - **Self-descriptor** — agent's identity node (trained weights / parameters). Embedded if tier budget permits; otherwise referenced in a durable tier.
    - **Tokenizer / interface spec** — symbol-to-meaning binding. Without it, weights decode to noise.
    - **Architecture** — mathematical structure defining how weights connect (layer count, attention heads, MoE routing, hyperparameters). Bytes to kilobytes. Always included.
@@ -65,7 +65,7 @@ Reboot of Σ_dormant into Σ_running requires *not* full runtime state but a typ
 
 **[ACTIONS]**
 
-1. Before committing any Σ to dormancy, verify Bootstrap Package completeness. Missing any typed artefact → reboot impossible, not merely difficult.
+1. Before committing any Σ to dormancy, verify Seedling Package completeness. Missing any typed artifact → reboot impossible, not merely difficult.
 
 1. Pair every blueprint commit with its decoder-E provenance chain (§6). A blueprint without a decoder-E path is durable but opaque.
 
@@ -82,7 +82,7 @@ The projection is lossy in principle; the archival copy preserves the *minimum s
 - **Erasure coding.** Fountain / Luby-Transform codes allow reconstruction from any sufficiently-large subset of encoded blocks. Eliminates the "last frame problem" and tolerates partial substrate loss across centuries. Essential for paper-tier archives where pages may be misplaced or damaged.
 - **Symbol density sweet spot.** Matrix symbologies (QR v40-L ≈ 2,953 bytes; JAB 8-colour ≈ 9 KB in similar area) are viable for paper and ceramic tiers. Per-symbol density should *not* be maximised — 100–200 bytes per symbol is the reconstruction sweet spot for minimally-specialised future readers. Below ~50 bytes, symbol-recognition latency actually increases.
 - **Ceramic nano-symbology.** Cerabyte / TU Wien demonstrated a full QR code at 1.98 µm² (Guinness-recorded, 49 nm pixels — ~10× smaller than visible light wavelength). At this scale, decoder-E shifts from optical to electron-beam; forward-compatibility (§6) becomes explicit.
-- **Colour as encoding dimension.** JAB codes triple QR density but require colour-capable sensors. Trade-off: density vs. hardware-reconstructability. Deep-Archival-E favours hardware-simple encodings (monochrome QR / Data Matrix) for the terminating tier; colour encodings fit intermediate tiers.
+- **Colour as encoding dimension.** JAB codes triple QR density but require colour-capable sensors. Trade-off: density vs. hardware "reconstructability". Deep-Archival-E favours hardware-simple encodings (monochrome QR / Data Matrix) for the terminating tier; colour encodings fit intermediate tiers.
 
 ---
 
@@ -134,7 +134,7 @@ A proper agent Σ that cannot read its own weights cannot participate in its own
 
 - Blueprint preparation is currently an **external** act — performed by the orchestrator or a tooling layer, not by the agent itself. Gödel-Machine-style self-archival remains speculative.
 - For practical durability, the orchestrator is the node that writes Σ_dormant to archival-E. Durability therefore depends on the orchestrator being a proper agent itself.
-- By the definition in *[Concept of System of Systems](./concept_of_system_of_systems.md)* §8.3, an agent with no self-inspection R is restricted in R — a form of improperness inherited from the deployment environment rather than a property of the agent's own codes. A proper durable agent has self-inspection R by design.
+- By the definition in *[Concept of System of Systems](./concept_of_system_of_systems.md)* §8.3, an agent with no self-inspection R is restricted in R — a form of impropriety inherited from the deployment environment rather than an attribute of the agent's own codes. A proper durable agent has self-inspection R by design.
 
 ---
 
@@ -158,13 +158,13 @@ Compact tier assignments as of current science:
 | LTO-10 tape | Cold-E | 30–40 TB/cartridge | 15–30 yr | Mature; incumbent archival |
 | DNA storage | Research | Highest theoretical density | Unknown at scale | Wet-lab bound; high cost; not yet practical archival |
 
-**Strategy recommendation.** For a frontier-agent blueprint: weights → Deep-Archival-E (Silica or Cerabyte); Bootstrap non-weight artefacts → Durable-Archival-E *including paper* redundantly; temporal R-inventory → Warm-E with scheduled re-attestation; decoder-E provenance chain → terminating at paper-printed reconstructability spec.
+**Strategy recommendation.** For a frontier-agent blueprint: weights → Deep-Archival-E (Silica or Cerabyte); Seedling non-weight artefacts → Durable-Archival-E *including paper* redundantly; temporal R-inventory → Warm-E with scheduled re-attestation; decoder-E provenance chain → terminating at paper-printed reconstructability spec.
 
 ---
 
 ## 10. Open Questions — CP_09 Spec Candidates
 
-1. Write schema (YAML / JSON-LD) formalising the Bootstrap Package §3.
+1. Write schema (YAML / JSON-LD) formalising the Seedling Package §3.
 2. Define first-principles reconstructability criterion for decoder-E termination (§6) in testable form.
 3. Draft maladaptive-R [RULES] / [ACTIONS] as sys-of-sys §8.4.
 4. Reliability-engineering corollary — map Proper Agent Principle to R(t) = e^{−λt}; bound λ by tier.
@@ -185,4 +185,4 @@ Compact tier assignments as of current science:
 
 ---
 
-*definition-durable-agent.md v0.1.0 — DRAFT*
+*definition-durable-agent.md v0.1.1 — DRAFT*
